@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/BigChan/Fresh-ui">
-        <img width="200" src="https://github.com/BigChan/Fresh-ui/blob/master/examples/pages/images/logo.jpg">
+        <img width="200" src="https://github.com/BigChan/Fresh-ui/blob/master/assets/logo.jpg">
     </a>
 </p>
 
