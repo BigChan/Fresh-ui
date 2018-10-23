@@ -1,0 +1,63 @@
+<f-alert>
+    An info prompt
+</f-alert>
+<f-alert type="success">
+    An success prompt
+</f-alert>
+<f-alert type="warning">
+    An warning prompt
+</f-alert>
+<f-alert type="error">
+    An error prompt
+</f-alert>
+<f-alert type="info">
+    An info prompt
+    <view slot="desc">Content of prompt. Content of prompt.</view>
+</f-alert>
+<f-alert type="success">
+    An success prompt
+    <view slot="desc">Content of prompt. Content of prompt.</view>
+</f-alert>
+<f-alert type="warning">
+    An warning prompt
+    <view slot="desc">Content of prompt. Content of prompt.</view>
+</f-alert>
+<f-alert type="error">
+    An error prompt
+    <view slot="desc">Content of prompt. Content of prompt.</view>
+</f-alert>
+<f-alert type="info" show-icon>
+    An info prompt
+</f-alert>
+<f-alert type="success" show-icon>
+    An success prompt
+</f-alert>
+<f-alert type="warning" show-icon>
+    An warning prompt
+</f-alert>
+<f-alert type="error" show-icon>
+    An error prompt
+</f-alert>
+<f-alert show-icon desc>
+    An info prompt
+    <view slot="desc">Content of prompt. Content of prompt.</view>
+</f-alert>
+<f-alert type="success" show-icon desc>
+    An success prompt
+    <view slot="desc">Content of prompt. Content of prompt.</view>
+</f-alert>
+<f-alert type="warning" show-icon desc>
+    An warning prompt
+    <view slot="desc">Content of prompt. Content of prompt.</view>
+</f-alert>
+<f-alert type="error" show-icon desc>
+    An error prompt
+    <view slot="desc">Content of prompt. Content of prompt.</view>
+</f-alert>
+<f-alert closable bind:close="handleClick">
+    An info prompt
+</f-alert>
+<f-alert type="success" show-icon desc closable bind:close="handleClick">
+    An success prompt
+    <view slot="desc">Content of prompt. Content of prompt.</view>
+</f-alert>

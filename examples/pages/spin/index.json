@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "Spin 加载中",
+  "usingComponents": {
+    "f-spin": "../../dist/spin/index",
+    "f-panel": "../../dist/panel/index",
+    "f-row": "../../dist/row/index",
+    "f-col": "../../dist/col/index",
+    "f-grid": "../../dist/grid/index",
+    "f-grid-item": "../../dist/grid-item/index",
+    "f-icon": "../../dist/icon/index",
+    "f-switch": "../../dist/switch/index"
+  }
+}

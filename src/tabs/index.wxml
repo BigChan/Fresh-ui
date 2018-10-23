@@ -1,0 +1,2 @@
+<scroll-view wx:if="{{ scroll }}" scroll-x="true" class="f-class f-tabs f-tabs-scroll {{ fixed ? 'f-tabs-fixed' : '' }}"><slot></slot></scroll-view>
+<view wx:else class="f-class f-tabs {{ fixed ? 'f-tabs-fixed' : '' }}"><slot></slot></view>

@@ -1,0 +1,10 @@
+<view class="f-class f-tab-bar-item">
+    <f-badge dot="{{ dot }}" count="{{ dot ? 0 : count }}">
+        <view>
+            <f-icon wx:if="{{ icon || currentIcon }}" f-class="f-tab-bar-item-icon {{ current ? 'item-index--f-tab-bar-item-icon-current' : '' }}" color="{{ current ? currentColor : '' }}" type="{{ current ? currentIcon : icon }}" size="22"></f-icon>
+            <image wx:else class="f-tab-bar-item-img" src="{{ current ? currentImg : img }}"></image>
+            <view class="f-tab-bar-item-title {{ current ? 'f-tab-bar-item-title-current' : '' }}" wx:if="{{ current && currentColor }}" style="color: {{ currentColor }}">{{ title }}</view>
+            <view class="f-tab-bar-item-title {{ current ? 'f-tab-bar-item-title-current' : '' }}" wx:else>{{ title }}</view>
+        </view>
+    </f-badge>
+</view>

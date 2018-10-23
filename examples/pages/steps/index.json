@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Steps 步骤条",
+  "usingComponents": {
+    "f-steps": "../../dist/steps/index",
+    "f-step": "../../dist/step/index",
+    "f-button": "../../dist/button/index"
+  }
+}

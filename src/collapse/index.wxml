@@ -1,0 +1,4 @@
+<view class="f-class f-collapse" bindcollapse="clickfn">
+  <slot></slot>
+</view>
+

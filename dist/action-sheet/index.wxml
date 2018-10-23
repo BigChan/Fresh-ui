@@ -1,0 +1,23 @@
+<view class="f-as-mask f-class-mask {{ visible ? 'f-as-mask-show' : '' }}" bindtap="handleClickMask"></view>
+<view class="f-class f-as {{ visible ? 'f-as-show' : '' }}">
+    <view class="f-as-header f-class-header"><slot name="header"></slot></view>
+    <view class="f-as-actions">
+        <view class="f-as-action-item" wx:for="{{ actions }}" wx:key="{{ item.name }}">
+            <f-button
+                bind:click="handleClickItem"
+                data-index="{{ index }}"
+                open-type="{{ item.openType }}"
+                type="ghost"
+                size="large"
+                long
+            >
+                <view class="f-as-btn-loading" wx:if="{{ item.loading }}"></view>
+                <f-icon wx:if="{{ item.icon }}" type="{{ item.icon }}" f-class="f-as-btn-icon"></f-icon>
+                <view class="f-as-btn-text" style="{{ item.color ? 'color: ' + item.color : '' }}">{{ item.name }}</view>
+            </f-button>
+        </view>
+    </view>
+    <view class="f-as-cancel" wx:if="{{ showCancel }}">
+        <f-button f-class="f-as-cancel-btn" type="ghost" size="large" long="true" bind:click="handleClickCancel">{{ cancelText }}</f-button>
+    </view>
+</view>

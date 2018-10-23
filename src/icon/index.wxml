@@ -1,0 +1,1 @@
+<view class="f-class f-icon {{ type === '' ? '' : 'f-icon-' +  type }} {{ custom }}" style="font-size: {{ size }}px; {{ color ? 'color:' + color : '' }}"></view>

@@ -1,0 +1,13 @@
+<view style="margin-top: 100px">
+    <f-button type="ghost" bind:click="handleOpen1">一般用法</f-button>
+    <f-button type="ghost" bind:click="handleOpen2">带有提示、异步</f-button>
+</view>
+<f-action-sheet visible="{{ visible1 }}" actions="{{ actions1 }}" show-cancel bind:cancel="handleCancel1" bind:click="handleClickItem1" />
+<f-action-sheet visible="{{ visible2 }}" actions="{{ actions2 }}" show-cancel bind:cancel="handleCancel2" bind:click="handleClickItem2" mask-closable="{{ false }}">
+    <view slot="header" style="padding: 16px">
+        <view style="color: #444;font-size: 16px">确定吗？</view>
+        <text>删除后无法恢复哦</text>
+    </view>
+</f-action-sheet>
+
+<f-message id="message" />

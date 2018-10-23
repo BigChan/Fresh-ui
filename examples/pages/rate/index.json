@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Rate 评分",
+  "usingComponents": {
+    "f-rate": "../../dist/rate/index",
+    "f-cell-group": "../../dist/cell-group/index",
+    "f-cell": "../../dist/cell/index"
+  }
+}

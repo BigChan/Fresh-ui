@@ -1,0 +1,1 @@
+<view class="f-class f-grid-item" style="width: {{ width }}"><slot></slot></view>

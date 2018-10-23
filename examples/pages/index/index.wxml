@@ -1,0 +1,64 @@
+<view class="logo">
+    <image src="../images/logo.jpg"></image>
+</view>
+<f-panel title="布局">
+    <f-cell-group>
+        <f-cell title="Layout 栅格布局" is-link url="/pages/layout/index"></f-cell>
+        <f-cell title="Grid 宫格" is-link url="/pages/grid/index"></f-cell>
+        <f-cell title="Panel 面板" is-link url="/pages/panel/index"></f-cell>
+        <f-cell title="List 列表" is-link url="/pages/list/index"></f-cell>
+        <f-cell title="Card 卡片" is-link url="/pages/card/index"></f-cell>
+    </f-cell-group>
+</f-panel>
+<f-panel title="基础组件">
+    <f-cell-group>
+        <f-cell title="Button 按钮" is-link url="/pages/button/index"></f-cell>
+        <f-cell title="Color 色彩" is-link url="/pages/color/index"></f-cell>
+        <f-cell title="Icon 图标" is-link url="/pages/icon/index"></f-cell>
+    </f-cell-group>
+</f-panel>
+<f-panel title="导航">
+    <f-cell-group>
+        <f-cell title="TabBar 标签栏" is-link url="/pages/tab-bar/index"></f-cell>
+        <f-cell title="Tabs 标签页" is-link url="/pages/tabs/index"></f-cell>
+        <f-cell title="Drawer 抽屉" is-link url="/pages/drawer/index"></f-cell>
+        <f-cell title="Page 分页" is-link url="/pages/page/index"></f-cell>
+        <f-cell title="Steps 步骤条" is-link url="/pages/steps/index"></f-cell>
+        <f-cell title="NoticeBar 通告栏" is-link url="/pages/notice-bar/index"></f-cell>
+        <f-cell title="Index 索引选择器" is-link url="/pages/index-list/index"></f-cell>
+        <f-cell title="Sticky 吸顶容器" is-link url="/pages/sticky/index"></f-cell>
+    </f-cell-group>
+</f-panel>
+<f-panel title="操作反馈">
+    <f-cell-group>
+        <f-cell title="ActionSheet 动作面板" is-link url="/pages/action-sheet/index"></f-cell>
+        <f-cell title="Toast 轻提示" is-link url="/pages/toast/index"></f-cell>
+        <f-cell title="Modal 对话框" is-link url="/pages/modal/index"></f-cell>
+        <f-cell title="Message 全局提醒" is-link url="/pages/message/index"></f-cell>
+        <f-cell title="Spin 加载中" is-link url="/pages/spin/index"></f-cell>
+        <f-cell title="Swipeout 滑动菜单" is-link url="/pages/swipeout/index"></f-cell>
+    </f-cell-group>
+</f-panel>
+<f-panel title="视图">
+    <f-cell-group>
+        <f-cell title="Badge 徽章" is-link url="/pages/badge/index"></f-cell>
+        <f-cell title="Alert 警告提示" is-link url="/pages/alert/index"></f-cell>
+        <f-cell title="Tag 标签" is-link url="/pages/tag/index"></f-cell>
+        <f-cell title="Progress 进度条" is-link url="/pages/progress/index"></f-cell>
+        <f-cell title="Avatar 头像" is-link url="/pages/avatar/index"></f-cell>
+        <f-cell title="CountDown 倒计时" is-link url="/pages/count-down/index"></f-cell>
+        <f-cell title="Divider 分隔符" is-link url="/pages/divider/index"></f-cell>
+        <f-cell title="Collapse 折叠面板" is-link url="/pages/collapse/index"></f-cell>
+        <f-cell title="LoadMore 页底提示" is-link url="/pages/load-more/index"></f-cell>
+    </f-cell-group>
+</f-panel>
+<f-panel title="表单">
+    <f-cell-group>
+        <f-cell title="Input 输入框" is-link url="/pages/input/index"></f-cell>
+        <f-cell title="Radio 单选" is-link url="/pages/radio/index"></f-cell>
+        <f-cell title="Checkbox 复选" is-link url="/pages/checkbox/index"></f-cell>
+        <f-cell title="Switch 开关" is-link url="/pages/switch/index"></f-cell>
+        <f-cell title="Rate 评分" is-link url="/pages/rate/index"></f-cell>
+        <f-cell title="InputNumber 数字输入框" is-link url="/pages/input-number/index"></f-cell>
+    </f-cell-group>
+</f-panel>

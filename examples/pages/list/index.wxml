@@ -1,0 +1,49 @@
+<f-panel class="cell-panel-demo">
+    <f-cell title="单行列表"></f-cell>
+</f-panel>
+
+<f-panel class="cell-panel-demo">
+    <f-cell title="单行列表" is-link value="详细信息"></f-cell>
+</f-panel>
+
+<f-panel class="cell-panel-demo">
+    <f-cell title="单行列表" label="附加描述" value="详细信息"></f-cell>
+</f-panel>
+
+<f-panel class="cell-panel-demo" title="带 icon 的 Cell">
+    <f-cell title="单行列表" value="详细信息">
+        <f-icon type="like_fill" slot="icon" />
+    </f-cell>
+</f-panel>
+
+<f-panel class="cell-panel-demo" title="带箭头的 cell">
+    <f-cell title="只显示箭头" is-link></f-cell>
+</f-panel>
+
+<f-panel class="cell-panel-demo">
+    <f-cell title="跳转到首页" is-link url="/pages/index/index"></f-cell>
+</f-panel>
+
+<f-panel class="cell-panel-demo" title="cell 组">
+    <f-cell-group>
+        <f-cell title="只显示箭头" is-link></f-cell>
+        <f-cell title="跳转到首页" is-link url="/pages/index/index"></f-cell>
+        <f-cell title="只有 footer 点击有效" is-link url="/pages/index/index" only-tap-footer></f-cell>
+        <block wx:if="{{ switch1 }}">
+            <f-cell title="单行列表" label="附加描述" value="详细信息"></f-cell>
+            <f-cell title="表单">
+                <input slot="footer" type="digit" placeholder="带小数点的数字键盘"/>
+            </f-cell>
+        </block>
+        <f-cell title="开关">
+            <f-switch value="{{ switch1 }}" bind:change="onChange" slot="footer">
+                <f-icon type="right" slot="open"></f-icon>
+                <f-icon type="close" slot="close"></f-icon>
+            </f-switch>
+        </f-cell>
+    </f-cell-group>
+</f-panel>
+
+<f-panel class="cell-panel-demo">
+    <f-cell title="单行列表" label="附加描述" value="详细信息"></f-cell>
+</f-panel>

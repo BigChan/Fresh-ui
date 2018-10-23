@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "List 列表",
+  "usingComponents": {
+    "f-cell-group": "../../dist/cell-group/index",
+    "f-cell": "../../dist/cell/index",
+    "f-panel": "../../dist/panel/index",
+    "f-icon": "../../dist/icon/index",
+    "f-switch": "../../dist/switch/index"
+  }
+}

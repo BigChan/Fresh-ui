@@ -1,0 +1,3 @@
+<view class="f-sticky f-class">
+    <slot></slot>
+</view>

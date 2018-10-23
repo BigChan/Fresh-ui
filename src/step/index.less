@@ -1,0 +1,144 @@
+@import "../styles/_base.less";
+@import "../styles/_mixins.less";
+.f-step{
+    &-ico{
+        width: 24px;
+        height: 100%;
+        border-radius: 100%;
+        background: #fff;
+        position: relative;
+        z-index: 2;
+        margin: 0 auto;
+        border: @border-color-base solid 1px;
+        &-in{
+            vertical-align: baseline;
+        }
+    }
+    &-line{
+        position: absolute;
+        left: 50%;
+        top: 12px;
+        width: 100%;
+        height: 1px;
+        background: @border-color-base;
+    }
+    &-horizontal{
+        .f-step-ico::after{
+            position: absolute;
+            top: 11px;
+            left: 23px;
+            z-index: 1;
+            content: '';
+            height: 1px;
+            background:#fff;
+            width: 10px; 
+        }
+        .f-step-item-main{
+            text-align: center
+        }
+        .f-step-ico::before{
+            position: absolute;
+            top: 11px;
+            left: -11px;
+            z-index: 1;
+            content: '';
+            height: 1px;
+            background:#fff;
+            width: 10px; 
+        }
+    }
+    &-ico{
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+    &-process{
+        .f-step-ico{
+            border: @primary-color solid 1px;
+            color:#fff;
+            background: @primary-color;
+        }
+        .f-step-line{
+           // background: @primary-color;
+        }
+    }
+    &-wait{
+        .f-step-ico{
+            border: #e9eaec solid 1px;
+            color:#e9eaec;
+        }
+        .f-step-line{
+            background: @primary-color;
+        }
+    }
+    &-finish{
+        .f-step-ico{
+            border: @primary-color solid 1px;
+            color:@primary-color;
+        }
+        .f-step-line{
+            background: @primary-color;
+        }
+    }
+    &-error{
+        .f-step-ico{
+            border: @error-color solid 1px;
+            color: @error-color;
+        }
+        .f-step-line{
+            background: @error-color;
+        }
+    }
+    &-item{
+        font-size: 12px;
+        position: relative;
+        display: inline-block;
+        box-sizing: border-box;
+        padding-left:10px;
+        vertical-align: top;
+        &-ico{
+            width: 100%;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+        }
+        &-main{
+            margin-top: 10px;
+            clear: both;
+        }
+        &-title{
+            font-size: 14px;
+            font-weight: bold;
+            color: @title-color ;
+        }
+        &-content{
+            font-size: 12px;
+            font-weight: bold;
+            margin-top: 2px;
+            color: @subsidiary-color ;
+        }
+    }
+    
+}
+
+.f-step{
+    &-vertical{
+        padding-bottom: 30px;
+        .f-step-item-ico{
+            width: 24px;
+            float: left;
+        }
+        .f-step-item-main{
+            margin-left: 40px;
+            margin-top: 0;
+            clear: inherit;
+        }
+        .f-step-line{
+            position: absolute;
+            height: 100%;
+            top:0;
+            left: 10px;
+            margin: 0 0 0 12px;
+            width: 1px;
+        }
+    }
+}

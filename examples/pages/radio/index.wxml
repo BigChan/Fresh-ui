@@ -1,0 +1,15 @@
+<f-panel title="group-水果">
+    <f-radio-group current="{{current}}" bindchange="handleFruitChange">
+        <f-radio wx:for="{{fruit}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </f-radio>
+    </f-radio-group>
+</f-panel>
+
+<f-button bindclick="handleClick" type="ghost">切换单选框位置</f-button>
+
+<f-panel title="radio-动物">
+    <f-radio value="{{animal}}" disabled="{{disabled}}" checked="{{checked}}" bindchange="handleAnimalChange">
+    </f-radio>
+</f-panel>
+
+<f-button bindclick="handleDisabled" type="ghost">切换disabled状态</f-button>

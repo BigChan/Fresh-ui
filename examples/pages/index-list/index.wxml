@@ -1,0 +1,19 @@
+<view class="f-index-demo">
+    <f-index height="100%" bind:change="onChange">
+        <f-index-item 
+            wx:for="{{ cities }}" 
+            wx:for-index="index" 
+            wx:key="{{index}}" 
+            wx:for-item="item" name="{{item.key}}">
+            <view 
+                class="f-index-demo-item" 
+                wx:for="{{item.list}}" 
+                wx:for-index="in" 
+                wx:key="{{in}}" 
+                wx:for-item="it">
+                {{it.name}}
+            </view>
+        </f-index-item>
+        
+    </f-index>
+</view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "index 索引选择器",
+  "usingComponents": {
+    "f-index": "../../dist/index/index",
+    "f-index-item": "../../dist/index-item/index"
+  }
+}

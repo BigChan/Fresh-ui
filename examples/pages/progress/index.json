@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Progress 进度条",
+  "usingComponents": {
+    "f-progress": "../../dist/progress/index",
+    "f-button": "../../dist/button/index"
+  }
+}

@@ -1,0 +1,57 @@
+<f-panel title="三种尺寸"></f-panel>
+
+<f-grid>
+    <f-grid-item f-class="item">
+        <f-spin size="small"></f-spin>
+    </f-grid-item>
+    <f-grid-item f-class="item">
+        <f-spin></f-spin>
+    </f-grid-item>
+    <f-grid-item f-class="item">
+        <f-spin size="large"></f-spin>
+    </f-grid-item>
+</f-grid>
+
+<f-panel title="居中固定"></f-panel>
+
+<view class="container">
+    <f-spin fix></f-spin>
+</view>
+
+<f-panel title="自定义内容"></f-panel>
+
+<f-grid>
+    <f-grid-item f-class="item">
+        <f-spin custom>加载中...</f-spin>
+    </f-grid-item>
+    <f-grid-item f-class="item">
+        <f-spin custom>
+            <f-icon type="refresh" size="20" f-class="icon-load"></f-icon>
+            <view>Loading</view>
+        </f-spin>
+    </f-grid-item>
+    <f-grid-item f-class="item">
+        <f-spin custom>
+            <view class="loading"></view>
+        </f-spin>
+    </f-grid-item>
+</f-grid>
+
+<f-panel title="切换显示状态"></f-panel>
+
+<view class="spin-article">
+    <view class="title">登金陵凤凰台</view>
+    <view class="name">李白</view>
+    <view class="article">
+        <view>凤凰台上凤凰游，凤去台空江自流。</view>
+        <view>吴宫花草埋幽径，晋代衣冠成古丘。</view>
+        <view>三山半落青天外，二水中分白鹭洲。</view>
+        <view>总为浮云能蔽日，长安不见使人愁。</view>
+    </view>
+
+    <f-spin size="large" fix wx:if="{{ spinShow }}"></f-spin>
+</view>
+
+<view class="switch">
+    <f-switch value="{{ switch }}" bindchange="onSwitchChange"></f-switch>
+</view>

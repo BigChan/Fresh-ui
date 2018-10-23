@@ -1,0 +1,17 @@
+<f-panel title="基本用法"></f-panel>
+
+<f-tab-bar current="{{ current }}" bindchange="handleChange">
+    <f-tab-bar-item key="homepage" icon="homepage" current-icon="homepage_fill" title="Home"></f-tab-bar-item>
+    <f-tab-bar-item key="group" icon="group" current-icon="group_fill" title="Friends"></f-tab-bar-item>
+    <f-tab-bar-item key="remind" icon="remind" current-icon="remind_fill" count="3" title="Notice"></f-tab-bar-item>
+    <f-tab-bar-item key="mine" icon="mine" current-icon="mine_fill" dot title="My"></f-tab-bar-item>
+</f-tab-bar>
+
+<f-panel title="自定义主题色"></f-panel>
+
+<f-tab-bar current="{{ current }}" color="#f759ab" bindchange="handleChange">
+    <f-tab-bar-item key="homepage" icon="homepage" current-icon="homepage_fill" title="首页"></f-tab-bar-item>
+    <f-tab-bar-item key="group" icon="group" current-icon="group_fill" title="朋友"></f-tab-bar-item>
+    <f-tab-bar-item key="remind" icon="remind" current-icon="remind_fill" title="通知"></f-tab-bar-item>
+    <f-tab-bar-item key="mine" icon="mine" current-icon="mine_fill" title="我的"></f-tab-bar-item>
+</f-tab-bar>

@@ -1,0 +1,6 @@
+<f-grid>
+    <view class="icon-item" wx:for="{{ list }}" wx:key="{{ item }}">
+        <f-icon type="{{ item }}" size="28" color="#80848f"></f-icon>
+        <view class="icon-item-name">{{ item }}</view>
+    </view>
+</f-grid>

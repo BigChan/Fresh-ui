@@ -1,0 +1,20 @@
+<f-cell-group>
+    <f-cell title="基本用法">
+        <f-switch value="{{switch1}}" bind:change="onChange" slot="footer"></f-switch>
+    </f-cell>
+    <f-cell title="自定义内容">
+        <f-switch value="{{switch1}}" size="large" bind:change="onChange" slot="footer">
+            <view slot="open">开启</view>
+            <view slot="close">关闭</view>
+        </f-switch>
+    </f-cell>
+    <f-cell title="图标">
+        <f-switch value="{{switch1}}" bind:change="onChange" slot="footer">
+            <f-icon type="right" slot="open"></f-icon>
+            <f-icon type="close" slot="close"></f-icon>
+        </f-switch>
+    </f-cell>
+    <f-cell title="禁止切换">
+        <f-switch value="{{switch1}}" disabled="{{true}}" slot="footer"></f-switch>
+    </f-cell>
+</f-cell-group>

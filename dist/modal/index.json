@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "f-grid": "../grid/index",
+    "f-grid-item": "../grid-item/index",
+    "f-button": "../button/index",
+    "f-icon": "../icon/index"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "navigationBarTitleText": "Checkbox 复选",
+    "usingComponents":
+    {   
+        "f-panel": "../../dist/panel/index",
+        "f-button": "../../dist/button/index",
+        "f-checkbox-group": "../../dist/checkbox-group/index",
+        "f-checkbox": "../../dist/checkbox/index"
+    }
+}

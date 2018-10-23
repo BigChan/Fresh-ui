@@ -1,0 +1,9 @@
+<view id="{{name}}" class="f-class f-collapse-item ">
+    <view class="f-collapse-item-title-wrap" bindtap="trigger">
+        <f-icon size="16" type="enter" f-class="{{ showContent ? 'f-collapse-item-arrow-show' : 'f-collapse-item-arrow' }}"/>
+        <text class="f-collapse-item-title f-class-title">{{title}}</text>
+    </view>
+    <view class="f-collapse-item-content {{showContent}}  f-class-content">
+        <slot name="content"></slot>
+    </view>
+</view>

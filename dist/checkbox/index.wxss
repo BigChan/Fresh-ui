@@ -1,0 +1,1 @@
+.f-checkbox-cell::after{display:block}.f-checkbox-checkbox-left{float:left}.f-checkbox-checkbox-right{float:right}.f-checkbox-radio{vertical-align:middle}.f-checkbox-title{display:inline-block;vertical-align:middle}

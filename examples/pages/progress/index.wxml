@@ -1,0 +1,12 @@
+<view class="progress-item">
+    <f-progress percent="25"></f-progress>
+    <f-progress percent="45" status="active"></f-progress>
+    <f-progress percent="65" status="wrong"></f-progress>
+    <f-progress percent="100" status="success"></f-progress>
+    <f-progress percent="25" hide-info></f-progress>
+</view>
+<view class="progress-item">
+    <f-progress percent="{{ percent }}" status="{{ status }}"></f-progress>
+    <f-button bindclick="handleAdd" type="ghost">增加</f-button>
+    <f-button bindclick="handleReduce" type="ghost">减少</f-button>
+</view>

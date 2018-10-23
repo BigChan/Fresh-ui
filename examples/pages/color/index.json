@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "Color 色彩",
+  "usingComponents": {
+    "f-card": "../../dist/card/index",
+    "f-row": "../../dist/row/index",
+    "f-col": "../../dist/col/index",
+    "f-panel": "../../dist/panel/index"
+  }
+}

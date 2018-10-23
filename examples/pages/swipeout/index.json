@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "Swipeout 滑动菜单",
+  "usingComponents": {
+    "f-swipeout": "../../dist/swipeout/index",
+    "f-cell-group": "../../dist/cell-group/index",
+    "f-cell": "../../dist/cell/index",
+    "f-card" : "../../dist/card/index",
+    "f-icon" : "../../dist/icon/index",
+    "f-action-sheet": "../../dist/action-sheet/index"
+  }
+}

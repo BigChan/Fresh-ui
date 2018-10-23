@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Layout 栅格布局",
+  "usingComponents": {
+    "f-panel": "../../dist/panel/index",
+    "f-row": "../../dist/row/index",
+    "f-col": "../../dist/col/index"
+  }
+}

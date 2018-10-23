@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Toast 轻提示",
+  "usingComponents": {
+    "f-toast": "../../dist/toast/index",
+    "f-button": "../../dist/button/index"
+  }
+}

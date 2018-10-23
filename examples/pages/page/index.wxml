@@ -1,0 +1,34 @@
+<f-panel title="带有文字的按钮"></f-panel>
+
+<f-page current="{{ current }}" total="5" bind:change="handleChange">
+    <view slot="prev">Prev</view>
+    <view slot="next">Next</view>
+</f-page>
+
+<f-panel title="带有文字和图标的按钮"></f-panel>
+
+<f-page current="{{ current }}" total="5" bind:change="handleChange">
+    <view slot="prev">
+        <f-icon type="return"></f-icon>
+        上一步
+    </view>
+    <view slot="next">
+        下一步
+        <f-icon type="enter"></f-icon>
+    </view>
+</f-page>
+
+<f-panel title="隐藏数字"></f-panel>
+
+<f-page current="{{ current }}" total="5" simple bind:change="handleChange">
+    <view slot="prev">Prev</view>
+    <view slot="next">Next</view>
+</f-page>
+
+<f-panel title="只显示数字"></f-panel>
+
+<f-page current="{{ current }}" total="5" mode="number" bind:change="handleChange"></f-page>
+
+<f-panel title="显示点"></f-panel>
+
+<f-page current="{{ current }}" total="5" mode="pointer" bind:change="handleChange"></f-page>

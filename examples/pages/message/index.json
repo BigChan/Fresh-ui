@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Message 全局提醒",
+  "usingComponents": {
+    "f-message": "../../dist/message/index",
+    "f-button": "../../dist/button/index"
+  }
+}

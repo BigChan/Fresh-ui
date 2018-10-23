@@ -1,0 +1,62 @@
+<f-grid>
+    <f-row>
+        <f-grid-item>
+            <f-grid-icon>
+                <f-icon size="24" type="activity" />
+                <f-grid-label>宫格</f-grid-label>
+            </f-grid-icon>
+        </f-grid-item>
+        <f-grid-item>
+            <f-grid-icon>
+                <f-icon size="24" type="addressbook" />
+                <f-grid-label>宫格</f-grid-label>
+            </f-grid-icon>
+        </f-grid-item>
+        <f-grid-item>
+            <f-grid-icon>
+                <f-icon size="24" type="barrage" />
+                <f-grid-label>宫格</f-grid-label>
+            </f-grid-icon>
+        </f-grid-item>
+    </f-row>
+    <f-row>
+        <f-grid-item>
+            <f-grid-icon>
+                <f-icon size="24" type="collection" />
+                <f-grid-label>宫格</f-grid-label>
+            </f-grid-icon>
+        </f-grid-item>
+        <f-grid-item>
+            <f-grid-icon>
+                <f-icon size="24" type="computer" />
+                <f-grid-label>宫格</f-grid-label>
+            </f-grid-icon>
+        </f-grid-item>
+        <f-grid-item>
+            <f-grid-icon>
+                <f-icon size="24" type="coupons" />
+                <f-grid-label>宫格</f-grid-label>
+            </f-grid-icon>
+        </f-grid-item>
+    </f-row>
+    <f-row>
+        <f-grid-item>
+            <f-grid-icon>
+                <f-icon size="24" type="flag" />
+                <f-grid-label>宫格</f-grid-label>
+            </f-grid-icon>
+        </f-grid-item>
+        <f-grid-item>
+            <f-grid-icon>
+                <f-icon size="24" type="interactive" />
+                <f-grid-label>宫格</f-grid-label>
+            </f-grid-icon>
+        </f-grid-item>
+        <f-grid-item>
+            <f-grid-icon>
+                <f-icon size="24" type="mail" />
+                <f-grid-label>宫格</f-grid-label>
+            </f-grid-icon>
+        </f-grid-item>
+    </f-row>
+</f-grid>

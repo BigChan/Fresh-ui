@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "TabBar 标签栏",
+  "usingComponents": {
+    "f-tab-bar": "../../dist/tab-bar/index",
+    "f-tab-bar-item": "../../dist/tab-bar-item/index",
+    "f-panel": "../../dist/panel/index"
+  }
+}

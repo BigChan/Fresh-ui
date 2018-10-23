@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "Switch 开关",
+  "usingComponents": {
+    "f-switch": "../../dist/switch/index",
+    "f-icon": "../../dist/icon/index",
+    "f-cell-group": "../../dist/cell-group/index",
+    "f-cell": "../../dist/cell/index",
+    "f-panel": "../../dist/panel/index"
+  }
+}

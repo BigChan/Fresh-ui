@@ -1,0 +1,3 @@
+<f-cell-group class="f-class">
+    <slot></slot>
+</f-cell-group>

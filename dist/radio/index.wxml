@@ -1,0 +1,8 @@
+<view class="f-class f-radio" catchtap="radioChange">
+    <f-cell f-class="f-radio-cell">
+        <label>
+            <radio value="{{value}}" checked="{{checked}}" color="{{checked?color:''}}" disabled="{{disabled}}" class="f-radio-radio {{positionCls}}" />
+            <view class="f-radio-title">{{value}}</view>
+        </label>
+    </f-cell>
+</view>

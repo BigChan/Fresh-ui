@@ -1,0 +1,15 @@
+<f-panel title="group-水果">
+    <f-checkbox-group current="{{current}}" bindchange="handleFruitChange">
+        <f-checkbox wx:for="{{fruit}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </f-checkbox>
+    </f-checkbox-group>
+</f-panel>
+
+<f-button bindclick="handleClick" type="ghost">切换复选框位置</f-button>
+
+<f-panel title="checkbox-动物">
+    <f-checkbox value="{{animal}}" disabled="{{disabled}}" checked="{{checked}}" bindchange="handleAnimalChange">
+    </f-checkbox>
+</f-panel>
+
+<f-button bindclick="handleDisabled" type="ghost">切换disabled状态</f-button>

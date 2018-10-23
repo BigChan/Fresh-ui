@@ -1,0 +1,10 @@
+<view class="f-sticky-item">
+    <view class="f-sticky-item-header f-class {{ isFixed === true ? 'f-sticky-fixed' : '' }}">
+        <view class="f-sticky-title">
+            <slot name="title"></slot>
+        </view>
+    </view>
+    <view class="f-index-item-content">
+        <slot name="content"></slot>
+    </view>
+</view>

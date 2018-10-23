@@ -1,0 +1,37 @@
+<f-panel title="基本用法"></f-panel>
+
+<f-tabs current="{{ current }}" bindchange="handleChange">
+    <f-tab key="tab1" title="选项1"></f-tab>
+    <f-tab key="tab2" title="选项2"></f-tab>
+    <f-tab key="tab3" title="选项3"></f-tab>
+</f-tabs>
+
+<f-panel title="自定义主题色"></f-panel>
+
+<f-tabs current="{{ current }}" color="#f759ab" bindchange="handleChange">
+    <f-tab key="tab1" title="选项1"></f-tab>
+    <f-tab key="tab2" title="选项2"></f-tab>
+    <f-tab key="tab3" title="选项3"></f-tab>
+</f-tabs>
+
+<f-panel title="徽标"></f-panel>
+
+<f-tabs current="{{ current }}" bindchange="handleChange">
+    <f-tab key="tab1" title="选项1" count="3"></f-tab>
+    <f-tab key="tab2" title="选项2"></f-tab>
+    <f-tab key="tab3" title="选项3" dot></f-tab>
+</f-tabs>
+
+<f-panel title="滚动"></f-panel>
+
+<f-tabs current="{{ current_scroll }}" scroll bindchange="handleChangeScroll">
+    <f-tab key="tab1" title="选项1"></f-tab>
+    <f-tab key="tab2" title="选项2"></f-tab>
+    <f-tab key="tab3" title="选项3"></f-tab>
+    <f-tab key="tab4" title="选项4"></f-tab>
+    <f-tab key="tab5" title="选项5"></f-tab>
+    <f-tab key="tab6" title="选项6"></f-tab>
+    <f-tab key="tab7" title="选项7"></f-tab>
+    <f-tab key="tab8" title="选项8"></f-tab>
+    <f-tab key="tab9" title="选项9"></f-tab>
+</f-tabs>

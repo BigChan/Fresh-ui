@@ -1,0 +1,114 @@
+<view class="f-steps-demo">
+    <view class="one-tag">基本用法</view>
+    <f-steps>
+        <f-step status="finish">
+            <view slot="title">
+                  已完成
+            </view>
+            <view slot="content">
+                这里是该步骤的描述信息
+            </view>
+        </f-step>
+        <f-step status="process">
+            <view slot="title">
+                进行中
+            </view>
+            <view slot="content">
+                这里是该步骤的描述信息
+            </view>
+        </f-step>
+        <f-step status="">
+            <view slot="title">
+                错误
+            </view>
+            <view slot="content">
+                这里是该步骤的描述信息
+            </view>
+        </f-step>
+    </f-steps>
+    
+     <view class="one-tag">使用 icon 图标</view>
+    <f-steps>
+        <f-step status="finish" icon="barrage">
+            <view slot="title">
+                  已完成
+            </view>
+            <view slot="content">
+                这里是该步骤的描述信息
+            </view>
+        </f-step>
+        <f-step status="process" icon="brush">
+            <view slot="title">
+                进行中
+            </view>
+            <view slot="content" icon="camera">
+                这里是该步骤的描述信息
+            </view>
+        </f-step>
+        <f-step  icon="collection">
+            <view slot="title">
+                错误
+            </view>
+            <view slot="content">
+                这里是该步骤的描述信息
+            </view>
+        </f-step>
+    </f-steps>
+
+    <view class="one-tag">步骤进度</view>
+    <f-steps current="{{current}}">
+        <f-step>
+            <view slot="title">
+                  已完成
+            </view>
+            <view slot="content">
+                这里是该步骤的描述信息
+            </view>
+        </f-step>
+        <f-step>
+            <view slot="title">
+                进行中
+            </view>
+            <view slot="content">
+                这里是该步骤的描述信息
+            </view>
+        </f-step>
+        <f-step>
+            <view slot="title">
+                错误
+            </view>
+            <view slot="content">
+                这里是该步骤的描述信息
+            </view>
+        </f-step>
+    </f-steps>
+    <f-button bindclick="handleClick">下一步</f-button>
+
+    <view class="one-tag">垂直方向</view>
+    <f-steps current="{{verticalCurrent}}" direction="vertical">
+        <f-step>
+            <view slot="title">
+                  已完成
+            </view>
+            <view slot="content">
+                这里是该步骤的描述信息
+            </view>
+        </f-step>
+        <f-step>
+            <view slot="title">
+                进行中
+            </view>
+            <view slot="content">
+                这里是该步骤的描述信息
+            </view>
+        </f-step>
+        <f-step>
+            <view slot="title">
+                错误
+            </view>
+            <view slot="content">
+                这里是该步骤的描述信息
+            </view>
+        </f-step>
+    </f-steps>
+</view>

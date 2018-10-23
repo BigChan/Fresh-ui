@@ -1,0 +1,11 @@
+<view class="f-index-item f-class">
+    <view class="f-index-item-header">{{name}}</view>
+    <view class="f-index-item-content">
+        <slot></slot>
+    </view>
+</view>
+<wxs module="parse">
+    module.exports = {
+       
+    }
+</wxs>

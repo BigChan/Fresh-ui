@@ -1,0 +1,25 @@
+<view class="container">
+    <view class="demo">
+        <f-badge dot>
+            <view class="demo-badge"></view>
+        </f-badge>
+    </view>
+    <view class="demo">
+        <f-badge count="3">
+            <view class="demo-badge"></view>
+        </f-badge>
+    </view>
+    <view class="demo">
+        <f-badge count="123" overflow-count="100">
+            <view class="demo-badge"></view>
+        </f-badge>
+    </view>
+    <view class="demo">
+        <f-badge count="66">
+        </f-badge>
+    </view>
+    <view class="demo">
+        <f-badge count="66" f-class-alone="demo-badge-alone">
+        </f-badge>
+    </view>
+</view>

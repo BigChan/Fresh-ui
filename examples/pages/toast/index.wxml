@@ -1,0 +1,10 @@
+<f-button type="ghost" bind:click="handleText">只显示文本</f-button>
+<f-button type="ghost" bind:click="handleSuccess">成功</f-button>
+<f-button type="ghost" bind:click="handleWarning">警告</f-button>
+<f-button type="ghost" bind:click="handleError">错误</f-button>
+<f-button type="ghost" bind:click="handleLoading">Loading</f-button>
+<f-button type="ghost" bind:click="handleIcon">使用图标</f-button>
+<f-button type="ghost" bind:click="handleImage">使用自定义图片</f-button>
+<f-button type="ghost" bind:click="handleMask">无遮罩层</f-button>
+
+<f-toast id="toast" />

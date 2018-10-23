@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Fresh UI",
+  "usingComponents": {
+    "f-panel": "../../dist/panel/index",
+    "f-cell-group": "../../dist/cell-group/index",
+    "f-cell": "../../dist/cell/index"
+  }
+}

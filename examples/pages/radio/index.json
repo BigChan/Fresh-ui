@@ -1,0 +1,10 @@
+{
+    "navigationBarTitleText": "Radio 单选",
+    "usingComponents":
+    {
+        "f-panel": "../../dist/panel/index",
+        "f-button": "../../dist/button/index",
+        "f-radio-group": "../../dist/radio-group/index",
+        "f-radio": "../../dist/radio/index"
+    }
+}
