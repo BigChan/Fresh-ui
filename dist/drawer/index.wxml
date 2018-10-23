@@ -1,6 +1,0 @@
-<view class="f-class f-drawer {{ visible ? 'f-drawer-show' : '' }} {{ 'f-drawer-' + mode }}">
-    <view wx:if="{{ mask }}" class="f-drawer-mask" bindtap="handleMaskClick"></view>
-    <view class="f-drawer-container">
-        <slot></slot>
-    </view>
-</view>

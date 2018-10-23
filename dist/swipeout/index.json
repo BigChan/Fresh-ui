@@ -1,7 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "f-cell": "../cell/index",
-    "f-icon": "../icon/index"
-  }
-}

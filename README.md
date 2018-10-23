@@ -1,6 +1,6 @@
 <p align="center">
-    <a href="https://weapp.iviewui.com">
-        <img width="200" src="https://file.iviewui.com/weapp-logo.svg">
+    <a href="https://github.com/BigChan/Fresh-ui">
+        <img width="200" src="https://github.com/BigChan/Fresh-ui/blob/master/examples/pages/images/logo.jpg">
     </a>
 </p>
 

@@ -1,1 +1,0 @@
-<view class="f-class f-grid-label"><slot></slot></view>

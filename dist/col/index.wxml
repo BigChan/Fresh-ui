@@ -1,1 +1,0 @@
-<view class="f-class f-col {{ span ? 'f-col-span-' + span : '' }} {{ offset ? 'f-col-offset-' + offset : '' }}"><slot></slot></view>

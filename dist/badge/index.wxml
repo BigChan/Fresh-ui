@@ -1,5 +1,0 @@
-<view class="f-class f-badge">
-    <slot></slot>
-    <view class="f-badge-dot" wx:if="{{ dot }}"></view>
-    <view class="f-badge-count f-class-alone" wx:elif="{{ count !== 0 }}">{{ finalCount }}</view>
-</view>

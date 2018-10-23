@@ -1,4 +1,0 @@
-<view class="f-class f-panel">
-    <view wx:if="{{ title }}" class="f-panel-title {{ hideTop ? 'f-panel-title-hide-top' : '' }}">{{ title }}</view>
-    <view class="f-panel-content {{ hideBorder ? 'f-panel-without-border' : '' }}"><slot></slot></view>
-</view>

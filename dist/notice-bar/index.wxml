@@ -1,9 +1,0 @@
-<view wx:if="{{ show }}" class="f-class f-noticebar" style="color: {{ color }}; background-color: {{ backgroundcolor }}">
-    <f-icon wx:if="{{ icon }}" type="{{ icon }}" size="24" color="{{color}}" class="f-noticebar-icon"></f-icon>
-    <view class="f-noticebar-content-wrap">
-        <view class="f-noticebar-content {{loop?'f-noticebar-content-loop':''}}" animation="{{ animationData }}">
-           <slot></slot>
-        </view>
-    </view>
-    <f-icon wx:if="{{closable}}" class="f-noticebar-operation" type="close" size="20" color="{{color}}" bindtap="handleClose"></f-icon>
-</view>

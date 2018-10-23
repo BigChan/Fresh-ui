@@ -1,8 +1,0 @@
-<view class="f-class f-checkbox" catchtap="checkboxChange">
-    <f-cell f-class="f-checkbox-cell">
-        <label>
-            <radio value="{{value}}" checked="{{checked}}" color="{{checked?color:''}}" disabled="{{disabled}}" class="f-checkbox-radio {{positionCls}}" />
-            <view class="f-checkbox-title">{{value}}</view>
-        </label>
-    </f-cell>
-</view>

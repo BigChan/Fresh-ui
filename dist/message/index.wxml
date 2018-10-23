@@ -1,3 +1,0 @@
-<view class="f-class f-message f-message-{{type}} {{ visible ? 'f-message-show' : '' }}">
-    {{ content }}
-</view>

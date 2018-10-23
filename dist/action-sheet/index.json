@@ -1,8 +1,0 @@
-{
-  "component": true,
-  "usingComponents":
-  {
-    "f-button": "../button/index",
-    "f-icon": "../icon/index"
-  }
-}

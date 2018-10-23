@@ -1,6 +1,0 @@
-<view class="f-class f-spin f-spin-{{ size }} {{ fix ? 'f-spin-fix' : '' }} {{ custom ? 'f-spin-show-text' : '' }} {{ fullscreen ? 'f-spin-fullscreen' : '' }}">
-    <div class="f-spin-main">
-        <view class="f-spin-dot"></view>
-        <div class="f-spin-text"><slot></slot></div>
-    </div>
-</view>

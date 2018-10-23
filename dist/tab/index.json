@@ -1,7 +1,0 @@
-{
-  "component": true,
-  "usingComponents":
-  {
-    "f-badge": "../badge/index"
-  }
-}

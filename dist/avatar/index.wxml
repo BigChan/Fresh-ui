@@ -1,4 +1,0 @@
-<view class="f-class f-avatar f-avatar-{{ shape }} f-avatar-{{ size }} {{ src ? 'f-avatar-image' : '' }}">
-    <image src="{{ src }}" wx:if="{{ src !== '' }}"></image>
-    <view class="f-avatar-string" wx:else><slot></slot></view>
-</view>

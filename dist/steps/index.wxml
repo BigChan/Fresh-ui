@@ -1,3 +1,0 @@
-<view class="f-class f-steps">
-    <slot></slot>
-</view>

@@ -1,6 +1,0 @@
-<view class="f-class f-tab-bar {{ fixed ? 'f-tab-bar-fixed' : '' }}">
-    <slot></slot>
-    <view class="f-tab-bar-list">
-        <view class="f-tab-bar-layer" wx:for="{{ list }}" wx:key="{{ item.key }}" data-key="{{ item.key }}" bindtap="handleClickItem" style="width: {{ 100 / list.length }}%"></view>
-    </view>
-</view>
